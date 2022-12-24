@@ -1,0 +1,24 @@
+1 задача:
+Создаем через скрапи паука, который парсит стим.
+
+Заходим в PyCharm.
+Открываем терминал.
+Пишем: scrapy startproject "имя проекта" "директория"
+       (scrapy startproject "python" .)
+Пишем: scrapy genspider steam store.steampowered.com
+
+Копируем код из ноутбука в steam.py
+Запускаем
+
+2 задача:
+
+Открываем PyCharm.
+Копируем код из ноутбука в .py файлик.
+Скачиваем все не достающие библиотеки.
+Чтобы БД работала, пишем в терминал:
+pip install 'Flask-SQLAlchemy<3'
+from app import db
+db.create_all()
+Создаем в той же директории, где наш .py файлик с кодом, папку templates и кидаем туда все .html файлы.
+
+Запускаем код
